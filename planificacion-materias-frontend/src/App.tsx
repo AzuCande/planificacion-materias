@@ -40,7 +40,7 @@ const App = () => {
 
         const transformedMaterias = materias
             .slice(1)
-            .map((row: any) => `${row[0]} - ${row[1]}`);
+            .map((row: any) => `${row[0].toFixed(2)} - ${row[1]}`);
         setMaterias(transformedMaterias);
     };
 
