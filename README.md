@@ -1,6 +1,8 @@
 # Planificación de materias ITBA
 ## Integración de Sistemas de Información 
 
+## Formulario
+
 ### Propuesta
 Un problema relevante que surge a partir de la matriculación es que demasiados alumnos quedan afuera de las materias por el cupo asignado. 
 Sucede que cada DD define este cupo, basado normalmente en estimaciones derivadas de cursadas previas de la materia. 
@@ -34,3 +36,17 @@ npm start
 ```
 
 El backend utilizará el puerto 8080, mientras que el frontend, el 3000.
+
+## Aplicación Excepciones
+
+### Guía para correr el proyecto
+Pararse sobre el directorio `exceptions-app` e installar el paquete Streamlit:
+```
+pip install streamlit
+```
+
+Luego, utilizar el proximo comando para correr la app:
+```
+streamlit run app.py
+```
+
